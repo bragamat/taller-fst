@@ -1,6 +1,7 @@
 import React from "react";
 import { ListAppointmentsProvider } from "../features/ListAppointments/context/list-appointments-provider";
-import AppointmentList from "../features/ListAppointments/appointments-list";
+import { AppointmentList } from "../features/ListAppointments/appointments-list";
+
 const ListAppointmentsPage: React.FC = () => {
   return (
     <ListAppointmentsProvider>
